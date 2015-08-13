@@ -1,0 +1,58 @@
+<style>
+#header {
+    background-color:4792DD;
+    color:white;
+    text-align:center;
+    padding:5px;
+    align:center;
+}
+#footer {
+    background-color:4792DD;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    clear:both;
+    padding:0 10px; background:#0099FF;
+}
+h4 {
+    text-align: center;
+    color: white;
+    clear:both;
+    padding:0 10px; background:#0099FF;
+}
+#main-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+#sidebar {
+    float: left;
+    width: 15%;
+}
+
+#content-wrap {
+    //float: right;
+    width: 75%;
+}
+hr {
+border: 0;
+color: #9E9E9E;
+background-color: #9E9E9E;
+height: 1px;
+width: 100%;
+text-align: left;
+}
+
+table, td, th {
+    border: 1px solid blue;
+}
+th{
+color: white;
+background-color: #000066;
+
+}
+</style>
